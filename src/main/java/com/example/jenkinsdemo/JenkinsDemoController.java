@@ -16,4 +16,9 @@ public class JenkinsDemoController {
     public String world(){
         return "Hello World";
     }
+
+    @GetMapping("/world")
+    public String helloWorld(){
+        return "Hello World";
+    }
 }
